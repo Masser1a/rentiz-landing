@@ -1,0 +1,14 @@
+.header__btn {
+
+  &-left {
+    padding: 15px 20px;
+    border: 1px solid #1AA090;
+    color: var(--light-color);
+  }
+
+  &-right {
+    padding: 15px 20px;
+    background-color: #1AA090;
+    color: var(--light-color);
+  }
+}
