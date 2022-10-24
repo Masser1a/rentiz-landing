@@ -1,0 +1,11 @@
+.nav{
+  margin-left: 140px;
+  &__list {
+    display: flex;
+    gap: 40px;
+
+    a {
+      color: var(--light-color);
+    }
+  }
+}
