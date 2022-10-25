@@ -1,0 +1,40 @@
+.simply {
+  position: relative;
+  padding: 180px 0;
+  background-color: var(--darkblue-color);
+
+  &__image {
+    left: -120px;
+    top: 120px;
+    position: absolute;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 16px;
+    width: 512px;
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 126%;
+    text-transform: capitalize;
+    color: var(--light-color);
+  }
+
+  &__content {
+
+    width: 637px;
+  }
+
+  &__descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: var(--gray-color);
+  }
+}
