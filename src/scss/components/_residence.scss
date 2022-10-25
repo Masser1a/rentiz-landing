@@ -1,0 +1,85 @@
+.residence {
+  padding: 160px 0;
+  background-color: var(--darkblue-color);
+  background-image: url("../img/residence-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__wrapper {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 60px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 126%;
+    text-transform: capitalize;
+    color: var(--light-color);
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+.residence-item {
+  &__image {
+    margin-bottom: 22px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 3px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 126%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: var(--light-color);
+  }
+
+  &__descr {
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: var(--gray-color);
+  }
+}
+
+.residence-terms {
+  display: flex;
+  column-gap: 20px;
+  &__span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: var(--light-color);
+  }
+}
+
+.swiper {
+  position: relative;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: -100px;
+}
