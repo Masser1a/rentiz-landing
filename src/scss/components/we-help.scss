@@ -1,0 +1,38 @@
+.we-help {
+  padding: 160px 0;
+  background-color: var(--darkblue-color);
+
+  &__image {
+    display: flex;
+    margin-right: 63px;
+    gap: 20px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__content {
+    width: 637px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 22px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 126%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+  &__descr {
+    margin: 0;
+    margin-bottom: 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #D6D6D6;
+  }
+}
