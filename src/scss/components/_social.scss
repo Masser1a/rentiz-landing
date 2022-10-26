@@ -1,0 +1,16 @@
+.social{
+  &__link {
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    img {
+      display: block;
+      width: 24px;
+      height: 24px;
+      fill: var(--light-color);
+      object-fit: cover;
+      transition: opacity 0.3s ease-in-out;
+    }
+  }
+}
